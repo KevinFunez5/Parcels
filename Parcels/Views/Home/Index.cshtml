@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset='utf-8'>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <title>Parcel Shipping</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Parcel Shipping Calculator</h1>
+    </div>
+        <form action="/cost" method="post">
+    <div class="form-group">
+      <label for="weight" class="form-label">Weight:</label>
+      <input id="weight" name="weight" type="number" class="form-control" required>
+    </div>
+    <div class="form-group">
+      <label for="length" class="form-label">Length:</label>
+      <input id="length" name="length" type="number" class="form-control" required>
+    </div>
+    <div class="form-group">
+      <label for="width" class="form-label">Width:</label>
+      <input id="width" name="width" type="number" class="form-control" required>
+    </div>
+    <div class="form-group">
+      <label for="height" class="form-label">Height:</label>
+      <input id="height" name="height" type="number" class="form-control" required>
+    </div>
+      <button type="submit" class="btn btn-dark">See Price</button>
+    </form>
+  </div>
+</body>
+</html>
